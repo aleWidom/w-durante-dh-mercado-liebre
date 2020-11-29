@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family = Roboto & display = swap" rel="hoja de estilo ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+
+    <main>
+        <header class="header">
+
+            <div class="header-containerDivLogoBusqueda">
+                <img src="/images/logo-mercado-liebre.svg" alt="logo-mercado-liebre" class="header-logo">
+
+                <form action="index.html" method="POST" class="header-form">
+                    <input type="text" id="busqueda" name="busqueda" placeholder="Buscar productos, marcas"
+                        class="header-form__search">
+                    <button type="button" class="header-form__buttonBusqueda"><i class="fas fa-search"
+                            class="header-form__buttonBusquedaIcono"></i></button>
+                </form>
+            </div>
+
+            <div class="header-containerCuotas">
+                <i class="fas fa-handshake header-div__icono"></i>
+                <p class="header-div__cuotasTarjeta">Comprá en cuotas y sin tarjeta de crédito</p>
+            </div>
+
+            <nav class="header-nav">
+
+                <div class="header-navContainerMenuIcono">
+                    <a href="#" class="header-nav__menu"></a><i class="fas fa-bars header-nav__menuIcono"></i></a>
+                </div>
+
+
+                <ul class="header-nav__lista">
+                    <li><a href="">Ofertas</a></li>
+                    <li><a href="">Tiendas Oficiales</a></li>
+                    <li><a href="">Vender</a></li>
+                    <li><a href="">Ayuda</a></li>
+                </ul>
+
+                <ul class="header-nav__lista">
+                    <li><a href="">Crea tu cuenta</a></li>
+                    <li><a href="">Ingresá</a></li>
+                    <li><a href="">Mis Compras</a></li>
+                </ul>
+            </nav>
+
+
+
+
+
+        </header>
+
+
+        <section class="section">
+
+            <form action="index.html" method="POST" class="main-form">
+                <input type="text" name="Nombre y Apellido" id="Nombre y apeliido" placeholder="Nombre y apellido"
+                    class="main-form__inputName">
+
+
+                <input type="text" name="Nombre de Usuario" id="usuario" placeholder="Nombre de usuario"
+                    class="main-form__inputUser">
+
+                <input type="email" name="Email" id="email" placeholder="E-mail" class="main-form__inputMail">
+
+
+                <label for="fecha" class="main-form__labelAge">Fecha de Nacimiento</label>
+
+                <input type="date" name="Fecha de Nacimiento" id="fecha" value="1984-02-26" min="1984-02-26"
+                    max="2020-09-28" class="main-form__inputAge">
+
+
+                <div class="main-form-perfil-container-label">
+                    <label for="perfil" class="main-form__labelPerfil">Perfil de Usuario</label>
+                </div>
+
+                <div class="main-form-perfil-container-input">
+                    <input type="radio" name="Fecha de Nacimiento" id="perfil" value="c"
+                        class="main-form__inputPerfil"><span class="main-form__inputPerfilSpan">Comprador</span>
+                    <input type="radio" name="Fecha de Nacimiento" id="perfil" value="v"
+                        class="main-form__inputPerfil"><span class="main-form__inputPerfilSpan">Vendedor</span>
+                </div>
+
+
+
+
+                <div class="main-form-interesting-container-label">
+                    <label for="categoría" class="main-form__labelInteresting">Intereses</label>
+                </div>
+
+                <div class="main-form-interesting-container-input">
+
+                    <input type="checkbox" name="categoría" value="El" class="main-form__inputInteresting"><span
+                        class="main-form__inputInterestingSpan">Electro</span>
+                    <input type="checkbox" name="categoría" value="Mo" class="main-form__inputInteresting"><span
+                        class="main-form__inputInterestingSpan">Moda</span>
+                    <input type="checkbox" name="categoría" value="Ho" class="main-form__inputInteresting"><span
+                        class="main-form__inputInterestingSpan">Hogar</span>
+                    <input type="checkbox" name="categoría" value="Ju" class="main-form__inputInteresting"><span
+                        class="main-form__inputInterestingSpan">Jugeteria</span>
+                    <input type="checkbox" name="categoría" value="Vs" class="main-form__inputInteresting"><span
+                        class="main-form__inputInterestingSpan">Vida
+                        Sana</span>
+                </div>
+
+
+                <label for="file">Seleccionar Archivo</label>
+                <input type="file" class="main-form__file" id="file"></input>
+
+
+                <label for="pasword" class="main-form__labelPassword">Contraseña</label>
+
+                <input type="password" name="Contraseña" id="contraseña" class="main-form__inputPassword">
+
+
+
+                <label for="pasword" class="main-form__labelPasswordConfirm">Confirmar Contraseña</label>
+
+                <input type="password" name="Contraseña2" id="contraseña2" class="main-form__inputPasswordConfirm">
+
+
+                <button type="submit" class="main-form__submit">Enviar</button>
+                <button type="reset" class="main-form__reset">Reset</button>
+            </form>
+        </section>
+
+
+        <footer class="footer">
+            <article class="footer__pago">
+                <i class="fas fa-credit-card iconos-footer"></i>
+                <h6>Pagá con tarjeta o en efectivo</h6>
+                <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de
+                    pago. ¡Y siempre es seguro!</p>
+            </article>
+            <article class="footer__envio">
+                <i class="fas fa-gift iconos-footer"></i>
+                <h6>Envío gratis desde los $ 2.500</h6>
+                <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de MercadoPuntos.</p>
+            </article>
+            <article class="footer__seguridad">
+                <i class="fas fa-user-shield iconos-footer"></i>
+                <h6>Seguridad, de principio a fin</h6>
+                <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer
+                    porque estás siempre prtegid@.</p>
+            </article>
+            <div class="footer__copyright">
+                <h6>Copyright © 1999-2019 MercadoLiebre S.R.L.</h6>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>

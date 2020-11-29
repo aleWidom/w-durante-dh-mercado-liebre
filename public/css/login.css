@@ -1,0 +1,48 @@
+.section {
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+.form-login {
+    width: 100%;
+}
+
+.form-login__labelName {
+
+}
+
+
+.form-login__inputName {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px solid #0022AA;
+}
+
+.form-login__labelPassword {
+
+}
+
+
+.form-login__inputPassword {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px solid #0022AA;
+}
+
+
+.form-login__ingresar {
+    color: #ffffff;
+    background-color: #0044AA;
+}
+
+
+.form-login__ingresar:hover {
+    color: #ffffff;
+    background-color: #0022AA;
+    ;
+}
+
