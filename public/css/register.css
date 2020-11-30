@@ -1,15 +1,11 @@
+/*SECTION*/
+
 .section {
     width: 100%;
     background-color: #ebebeb;
 }
 
-.main-form {
-
-}
-
-.main-form__labelName {
-
-}
+/*NAME*/
 
 .main-form__inputName {
     width: 100%;
@@ -19,10 +15,7 @@
     border: 0px solid #0022AA;
 }
 
-
-.main-form__labelUser {
-
-}
+/*USER*/
 
 .main-form__inputUser {
     width: 100%;
@@ -32,9 +25,7 @@
     border: 0px solid #0022AA;
 }
 
-.main-form__labelMail {
-
-}
+/*MAIL*/
 
 .main-form__inputMail {
     width: 100%;
@@ -44,8 +35,10 @@
     border: 0px solid #0022AA;
 }
 
-.main-form__labelAge {
+/*EDAD*/
 
+.main-form__labelAge {
+    font-weight: bold;
 }
 
 .main-form__inputAge {
@@ -56,9 +49,7 @@
     border: 0px solid #0022AA;
 }
 
-.main-form__labelPerfil {
-
-}
+/*PERFIL*/
 
 .main-form__inputPerfil {
     width: 100%;
@@ -67,62 +58,6 @@
     border-radius: 5px;
     border: 0px solid #0022AA;
 }
-
-.main-form__labelInteresting {
-
-}
-
-.main-form__inputInteresting {
-    width: 100%;
-    padding: 10px;
-    margin: 20px 0px;
-    border-radius: 5px;
-    border: 0px solid #0022AA;
-}
-
-.main-form__file {
-
-}
-
-.main-form__labelPassword {
-
-}
-
-.main-form__inputPassword {
-    width: 100%;
-    padding: 10px;
-    margin: 20px 0px;
-    border-radius: 5px;
-    border: 0px solid #0022AA;
-}
-
-.main-form__labelPasswordConfirm {
-
-}
-
-.main-form__inputPasswordConfirm {
-    width: 100%;
-    padding: 10px;
-    margin: 20px 0px;
-    border-radius: 5px;
-    border: 0px solid #0022AA;
-}
-
-.main-form__submit {
-    color: #ffffff;
-    background-color: #0044AA;
-}
-
-.main-form__reset {
-    color: white;
-    background-color: #AA0044;
-}
-
-.main-form__reset:hover {
-    background-color: #CC1155;
-}
-
-
 
 .main-form-perfil-container-label {
     font-weight: bold;
@@ -133,23 +68,105 @@
     justify-content: center;
 }
 
-.main-form__inputPerfilSpan {
-    margin: 20px 0;
-}
+/*INTERESES*/
 
 .main-form-interesting-container-label {
     font-weight: bold;
 }
 
-.main-form-interesting-container-input {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background-color: blue;
+
+.main-form-interesting-container-input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px solid #0022AA;
+}
+
+.main-form-interesting-container-input__Electro {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px solid #0022AA;
+}
+
+.main-form-interesting-container-input__Moda {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px solid #0022AA;
+}
+
+.main-form-interesting-container-input__Hogar {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px solid #0022AA;
+}
+
+.main-form-interesting-container-input__Jugueteria {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px solid #0022AA;
+}
+ 
+.main-form-interesting-container-input__VidaSana {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px solid #0022AA;
+}
+
+/*SELECCIONAR ARCHIVO*/
+
+.main-form__fileLabel {
+    font-weight: bold;
 }
 
 
-.main-form__inputInterestingSpan {
+/*CONTRASEÑA*/
+
+.main-form__inputPassword {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px solid #0022AA;
+}
+
+.main-form__inputPasswordConfirm {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px solid #0022AA;
+}
+
+/*ENVIAR*/
+
+.main-form__submit {
+    color: #ffffff;
+    background-color: #0044AA;
+}
+
+/*RESET*/
+
+.main-form__reset {
+    color: white;
+    background-color: #AA0044;
+}
+
+.main-form__reset:hover {
+    background-color: #CC1155;
+}
+
+.main-form__inputPerfilSpan {
     margin: 20px 0;
-    background-color: green;
 }
+
