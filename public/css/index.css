@@ -20,7 +20,6 @@
     width: 90%;
     display: flex;
     flex-direction: column;
-
 }
 
 .div-section-info {
@@ -86,4 +85,19 @@
 
 .article-padding {
     padding: 15px;
+}
+
+@media (min-width: 361px) {
+    
+    .div-section-productos:hover {
+       
+    }
+
+    .div-section__description {
+        display: none;
+    }
+
+    .div-section__description:hover {
+        display: block;
+    }
 }

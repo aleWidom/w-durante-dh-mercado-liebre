@@ -6,7 +6,7 @@
 
 main {
     width: 100%;
-    font-family: roboto,sans-serif;
+    font-family: roboto, sans-serif;
 }
 
 
@@ -21,7 +21,7 @@ main {
 
 .header-containerDivLogoBusqueda {
     display: flex;
-    
+
 }
 
 .header-form {
@@ -38,33 +38,10 @@ main {
     width: 100%;
 }
 
-.header-div {
-
-}
-
-.header-div__icono {
-    
-}
 
 .header-div__cuotasTarjeta {
     display: inline-block;
 }
-
-/* .header-form__buttonBusqueda {
-
-}
-
-.header-form__buttonBusquedaIcono {
-
-}
-
-.header-nav {
-
-}
-
-.header-nav__menu {
-
-} */
 
 
 .header-navContainerMenuIcono {
@@ -95,9 +72,6 @@ main {
 
 
 
-
-
-
 /* FOOTER */
 
 
@@ -124,4 +98,46 @@ main {
 
 .iconos-footer {
     color: #0044AA;
+}
+
+
+@media (min-width: 361px) {
+
+    .header {
+        background-color: #EAC926;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .header-containerDivLogoBusqueda {
+     
+    }
+
+    .header-logo {
+        border: solid 1px red;
+    }
+
+    .header-form {
+        margin: 0px 10px;
+        display: flex;
+        background-color: green;
+    }
+
+    .header-form__search {
+        border-radius: 5px;
+        padding: 10px;
+        outline: none;
+        border: solid 1px rgb(255, 255, 255);
+        width: 100%;
+    }
+
+    .header-form__buttonBusqueda {
+        background-color: #ffffff;
+    }
+
+    .header-containerCuotas {
+        background-color: brown;
+        margin-top: 20px;
+    }
+
 }
