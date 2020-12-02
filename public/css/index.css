@@ -1,103 +1,17 @@
 /* SECTION */
 
-.section {}
-
-.section-banner {
-    width: 100%;
-    display: block;
-}
-
-.section-container {
+.section-main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ebebeb;
-}
-
-.div-section {
-    background-color: #ebebeb;
-    margin: 0px;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-}
-
-.div-section-info {
-    border-top: 1px solid #ebebeb;
-    width: 100%;
-    background-color: rgb(123, 123, 231);
-}
-
-.div-section-info h5 {
-    width: 30%;    
-    display: inline-block;
-    background-color: blue;
-}
-
-.div-section__spanOfertas {
-    color: green;
-    width: 70%;
-    display: inline-block;
-    background-color: rgb(25, 204, 40);
- }
-
-
-
-
-
-.div-section-ultimaVisita {
-    margin: 20px 0px;
-    text-align: center;
     width: 100%;
 }
 
-
-.div-section-ofertas {
-    margin: 20px 0;
-    text-align: center;
-    width: 100%;
+.section-container-banner {
+    border: solid 1px blue;
 }
 
-
-.icono-envio {
-    color: green;
-    display: block;
+.section-container-products {
+    border: solid 1px rgb(221, 136, 25);
 }
 
-
-.div-section-productos {
-    margin: 20px 0px;
-    padding: 15px;
-    background-color: white;
-}
-
-.div-section-productos__imagen {
-    width: 100%;
-}
-
-.primer-producto {
-    margin-top: 10px;
-}
-
-.ultimo-producto {
-    margin-bottom: 10px;
-}
-
-.article-padding {
-    padding: 15px;
-}
-
-@media (min-width: 361px) {
-    
-    .div-section-productos:hover {
-       
-    }
-
-    .div-section__description {
-        display: none;
-    }
-
-    .div-section__description:hover {
-        display: block;
-    }
-}

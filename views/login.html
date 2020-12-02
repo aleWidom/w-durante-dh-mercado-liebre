@@ -17,47 +17,44 @@
 
     <header class="header">
 
-        <div class="header-containerDivLogoBusqueda">
+        <div class="header-container-logo-busqueda">
             <img src="/images/logo-mercado-liebre.svg" alt="logo-mercado-liebre" class="header-logo">
 
-            <form action="index.html" method="POST" class="header-form">
+            <form action="index.html" method="POST" class="header-form-search">
                 <input type="text" id="busqueda" name="busqueda" placeholder="Buscar productos, marcas"
-                    class="header-form__search">
-                <button type="button" class="header-form__buttonBusqueda"><i class="fas fa-search"
-                        class="header-form__buttonBusquedaIcono"></i></button>
+                    class="header-form-search-input">
+                <button type="button" class="header-form-search-button"><i
+                        class="fas fa-search header-form-search-icon"></i></button>
             </form>
         </div>
 
-        <div class="header-containerCuotas">
-            <i class="fas fa-handshake header-div__icono"></i>
-            <p class="header-div__cuotasTarjeta">Comprá en cuotas y sin tarjeta de crédito</p>
+        <div class="header-container-pay">
+            <i class="fas fa-hand-holding-usd header-pay-icon"></i> 
+            <p class="header-pay-details">Comprá en cuotas y sin tarjeta de crédito</p>
         </div>
 
-        <nav class="header-nav">
 
-            <div class="header-navContainerMenuIcono">
-                <a href="#" class="header-nav__menu"></a><i class="fas fa-bars header-nav__menuIcono"></i></a>
+        <nav class="header-container-nav">
+
+            <div class="header-nav-menu">
+                <a href="#" class="header-nav-menu-link"><i class="fas fa-bars header-nav-menu-icon"></i></a>
             </div>
 
+            <div class="header-nav-list">
+                <ul>
+                    <li><a href="">Ofertas</a></li>
+                    <li><a href="">Tiendas Oficiales</a></li>
+                    <li><a href="">Vender</a></li>
+                    <li><a href="">Ayuda</a></li>
+                </ul>
 
-            <ul class="header-nav__lista">
-                <li><a href="">Ofertas</a></li>
-                <li><a href="">Tiendas Oficiales</a></li>
-                <li><a href="">Vender</a></li>
-                <li><a href="">Ayuda</a></li>
-            </ul>
-
-            <ul class="header-nav__lista">
-                <li><a href="">Crea tu cuenta</a></li>
-                <li><a href="">Ingresá</a></li>
-                <li><a href="">Mis Compras</a></li>
-            </ul>
+                <ul>
+                    <li><a href="">Crea tu cuenta</a></li>
+                    <li><a href="">Ingresá</a></li>
+                    <li><a href="">Mis Compras</a></li>
+                </ul>
+            </div>
         </nav>
-
-
-
-
-
     </header>
 
     
@@ -76,25 +73,25 @@
 
     
     <footer class="footer">
-        <article class="footer__pago">
-            <i class="fas fa-credit-card iconos-footer"></i>
-            <h6>Pagá con tarjeta o en efectivo</h6>
-            <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de
+        <article class="footer-container-pay">
+            <i class="fas fa-credit-card footer-pay-icon footer-icon"></i>
+            <h6 class="footer-title">Pagá con tarjeta o en efectivo</h6>
+            <p class="footer-detail">Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de
                 pago. ¡Y siempre es seguro!</p>
         </article>
-        <article class="footer__envio">
-            <i class="fas fa-gift iconos-footer"></i>
-            <h6>Envío gratis desde los $ 2.500</h6>
-            <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de
+        <article class="footer-container-shipping">
+            <i class="fas fa-gift footer-shipping-icon footer-icon"></i>
+            <h6 class="footer-title">Envío gratis desde los $ 2.500</h6>
+            <p class="footer-detail">Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de
                 productos. Es un beneficio de MercadoPuntos.</p>
         </article>
-        <article class="footer__seguridad">
-            <i class="fas fa-user-shield iconos-footer"></i>
-            <h6>Seguridad, de principio a fin</h6>
-            <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer
+        <article class="footer-container-security">
+            <i class="fas fa-user-shield footer-security-icon footer-icon"></i>
+            <h6 class="footer-title">Seguridad, de principio a fin</h6>
+            <p class="footer-detail">¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer
                 porque estás siempre prtegid@.</p>
         </article>
-        <div class="footer__copyright">
+        <div class="footer-container-copyright">
             <h6>Copyright © 1999-2019 MercadoLiebre S.R.L.</h6>
         </div>
     </footer>

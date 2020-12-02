@@ -7,49 +7,72 @@
 main {
     width: 100%;
     font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px red;
 }
-
-
 
 /* HEADER */
 
 .header {
     background-color: #EAC926;
     width: 100%;
-}
-
-
-.header-containerDivLogoBusqueda {
     display: flex;
-
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;  
+    border: solid 1px red;
 }
 
-.header-form {
-    width: 100%;
+.header-container-logo-busqueda {
+    display: flex;
 }
-
 
 .header-logo {
     width: 50%;
+    margin-left: -10px;
 }
 
-.header-form__search {
-    display: block;
-    width: 100%;
+.header-form-search {
+    width: 50%;
+    display: flex;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: #ffffff solid 1px;
+    padding: 2px;
+    background-color: #ffffff;
 }
 
-
-.header-div__cuotasTarjeta {
-    display: inline-block;
+.header-form-search-input { 
+    outline: none;
+    border: #ffffff solid 1px;
+    padding: 5px;
 }
 
+.header-form-search-button {
+    color: gray;
+    outline: none;
+    border: #ffffff solid 1px;
+    padding: 1px;
+}
 
-.header-navContainerMenuIcono {
+.header-form-search-icon {
+    color: gray;
+    border: #ffffff solid 1px;
+    background-color: #ffffff;
+}
+
+.header-container-pay {
     display: flex;
     justify-content: center;
+    margin: 20px 0px;
 }
 
-.header-nav__menuIcono {
+.header-form-search-input {
+   width: 100%;
+}
+
+.header-nav-menu-icon {
     background-color: #0044AA;
     width: 40px;
     height: 40px;
@@ -57,87 +80,71 @@ main {
     font-size: 20px;
     padding: 10px;
     border-radius: 5px;
-    margin: 20px 0px;
 }
 
-.header-nav__menuIcono:hover {
+.header-nav-menu-icon:hover {
     background-color: #0022AA;
     cursor: pointer;
 }
 
-.header-nav__lista {
+.header-pay-details {
+    font-size: 12px;
+}
+
+.header-nav-list {
     display: none;
     text-align: center;
 }
 
-
-
 /* FOOTER */
-
 
 .footer {
     padding: 20px 5%;
+    display: flex;
+    flex-direction: column;
 }
 
-.footer__pago {
+.footer-container-pay {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container-shipping {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container-security {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container-copyright {
     margin-bottom: 10px;
 }
 
-.footer__envio {
-    margin: 20px 0;
-}
-
-.footer__seguridad {
-    margin: 20px 0;
-}
-
-
-.footer__copyright {
-    margin-bottom: 10px;
-}
-
-.iconos-footer {
+.footer-icon {
     color: #0044AA;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.footer-title {
+    font-size: 1rem;
+    color: #666666;
+    font-weight: bold;
+}
+
+.footer-detail {
+    font-size: 0.8rem;
+    text-align: center;
 }
 
 
-@media (min-width: 361px) {
-
-    .header {
-        background-color: #EAC926;
-        width: 100%;
-        padding: 20px;
-    }
-
-    .header-containerDivLogoBusqueda {
-     
-    }
-
-    .header-logo {
-        border: solid 1px red;
-    }
-
-    .header-form {
-        margin: 0px 10px;
-        display: flex;
-        background-color: green;
-    }
-
-    .header-form__search {
-        border-radius: 5px;
-        padding: 10px;
-        outline: none;
-        border: solid 1px rgb(255, 255, 255);
-        width: 100%;
-    }
-
-    .header-form__buttonBusqueda {
-        background-color: #ffffff;
-    }
-
-    .header-containerCuotas {
-        background-color: brown;
-        margin-top: 20px;
-    }
-
-}
+/*MEDIA QUERIES*/
