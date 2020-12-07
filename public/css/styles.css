@@ -2,15 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: roboto, sans-serif;
 }
 
-main {
-    width: 100%;
-    font-family: roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
-    border: solid 1px red;
-}
 
 /* HEADER */
 
@@ -20,8 +14,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;  
-    border: solid 1px red;
+    padding: 30px;
 }
 
 .header-container-logo-busqueda {
@@ -43,7 +36,7 @@ main {
     background-color: #ffffff;
 }
 
-.header-form-search-input { 
+.header-form-search-input {
     outline: none;
     border: #ffffff solid 1px;
     padding: 5px;
@@ -69,7 +62,7 @@ main {
 }
 
 .header-form-search-input {
-   width: 100%;
+    width: 100%;
 }
 
 .header-nav-menu-icon {
@@ -102,24 +95,29 @@ main {
     padding: 20px 5%;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
 }
 
 .footer-container-pay {
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .footer-container-shipping {
-    margin: 20px 0;
+    margin: 40px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .footer-container-security {
-    margin: 20px 0;
+    margin: 40px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,12 +125,16 @@ main {
 
 .footer-container-copyright {
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    color: #666;
 }
 
 .footer-icon {
     color: #0044AA;
-    font-size: 25px;
-    margin-bottom: 5px;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .footer-title {
@@ -148,3 +150,332 @@ main {
 
 
 /*MEDIA QUERIES*/
+
+@media (min-width: 768px) {
+
+    /* HEADER */
+
+    .header {
+        background-color: #EAC926;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: -15px;
+
+    }
+
+
+    .header-cotainer-logo-busqueda-pay {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+
+    }
+
+    .header-container-logo-busqueda {
+        width: 65%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    .header-container-pay {
+        width: 35%;
+        margin: 0px;
+
+    }
+
+    .header-container-nav {
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    .header-logo {
+        width: 150px;
+        margin: 0px;
+    }
+
+    .header-form-search {
+        width: 100%;
+        display: flex;
+        margin-left: 10px;
+        border-radius: 5px;
+        border: #ffffff solid 1px;
+        padding: 2px;
+        background-color: #ffffff;
+        height: 35px;
+    }
+
+    .header-nav-menu-icon {
+        display: none;
+    }
+
+
+
+    .header-pay-details {
+        font-size: 12px;
+    }
+
+
+
+    .header-nav-list {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header-nav-list__products {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 45%;
+    }
+
+    .header-nav-list__products li {
+        list-style: none;
+        font-size: 12px;
+    }
+
+    .header-nav-list__products li a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .header-nav-list__users {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 45%;
+    }
+
+    .header-nav-list__users i {
+        margin: 0px 5px;
+    }
+
+    .header-nav-list__users li {
+        list-style: none;
+        font-size: 12px;
+        ;
+    }
+
+    .header-nav-list__users li a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+
+
+
+    /* FOOTER */
+
+    .footer {
+        padding: 20px 5%;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        width: 100%;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .footer-container-pay {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container-shipping {
+        margin: 40px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container-security {
+        margin: 40px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container-copyright {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        color: #666;
+    }
+
+    .footer-icon {
+        color: #0044AA;
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .footer-title {
+        font-size: 1rem;
+        color: #666666;
+        font-weight: bold;
+    }
+
+    .footer-detail {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+
+    /* HEADER */
+
+    .header {
+        background-color: #EAC926;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: -15px;
+
+    }
+
+
+    .header-cotainer-logo-busqueda-pay {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .header-container-logo-busqueda {
+        width: 75%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .header-container-pay {
+        width: 25%;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .header-container-nav {
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    .header-logo {
+        width: 200px;
+        margin: 0px;
+    }
+
+    .header-form-search {
+        width: 100%;
+        display: flex;
+        margin-left: 10px;
+        border-radius: 5px;
+        border: #ffffff solid 1px;
+        padding: 2px;
+        background-color: #ffffff;
+        height: 45px;
+    }
+
+    .header-nav-menu-icon {
+        display: none;
+    }
+
+
+
+    .header-pay-details {
+        font-size: 12px;
+    }
+
+
+
+    .header-nav-list {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header-nav-list__products {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 45%;
+    }
+
+
+    .header-nav-list__products li {
+        list-style: none;
+        font-size: 12px;
+        margin: 0px 15px 0px 0px;
+    }
+
+    .header-nav-list__products li a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .header-nav-list__users {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 45%;
+    }
+
+    .header-nav-list__users i {
+        margin: 0px 10px;
+    }
+
+    .header-nav-list__users li {
+        list-style: none;
+        font-size: 12px;
+    }
+
+    .header-nav-list__users li a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .footer {
+        padding: 20px 5%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .footer-container-pay-shipping-security {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-container-pay {
+        margin: 40px 30px 40px 0px;
+    }
+
+    .footer-container-security {
+        margin: 40px 0px 40px 30px;
+    }
+
+
+
+
+}

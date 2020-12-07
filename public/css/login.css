@@ -1,21 +1,21 @@
 .section {
     width: 100%;
-    background-color: #ebebeb;
+    background-color: #cecece;
 }
 
 .form-login {
     width: 100%;
+    padding: 20px;
 }
 
 .form-login__labelName {
 
 }
 
-
 .form-login__inputName {
     width: 100%;
     padding: 10px;
-    margin: 20px 0px;
+    margin: 10px 0px 20px 0px;
     border-radius: 5px;
     border: 0px solid #0022AA;
 }
@@ -37,6 +37,12 @@
 .form-login__ingresar {
     color: #ffffff;
     background-color: #0044AA;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+    outline: none;
+    border: solid 1px #0044AA;
 }
 
 
@@ -46,3 +52,7 @@
     ;
 }
 
+.input {
+    border-radius: 5px;   
+
+}
